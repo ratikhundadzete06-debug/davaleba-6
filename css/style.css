@@ -129,39 +129,6 @@ nav a {
     margin-bottom: 20px;
 }
 
-.side-imgs .small {
-    height: 212px;
-    width: 362px;
-    border-radius: 5px;
-    flex: 1;
-}
-
-.bottom-row {
-    display: flex;
-    width: 362px;
-    height: 212px;
-    border-radius: 5px;
-    gap: 20px;
-}
-
-.bottom-row .img-box {
-    flex: 2;
-    width: 362px;
-    height: 212px;
-    border-radius: 5px;
-}
-
-.side-small {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.side-small .small {
-    height: 100px;
-}
-
 /* FOOTER */
 
 footer {
@@ -213,8 +180,37 @@ footer p {
     object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
-.img-box good {
- width: 758px;
- height: 430px;
- border-radius: 5px;
+.happening-grid {
+    width: 90%;
+    margin: 20px auto 60px;
+    display: flex;
+    gap: 25px;
+}
+
+/* LEFT SIDE — TWO LARGE IMAGES */
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.big-img {
+    width: 758px;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* RIGHT SIDE — THREE SMALL IMAGES */
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.small-img {
+    width: 362px;
+    height: 212px;
+    object-fit: cover;
+    border-radius: 5px;
 }
