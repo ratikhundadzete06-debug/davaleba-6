@@ -73,8 +73,10 @@ nav a {
 }
 
 .card img {
-    height: 150px;
-    width: 100%;
+    height: 362px;
+    width: 186px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     object-fit: cover;
 }
 
@@ -103,37 +105,50 @@ nav a {
 }
 
 .big-img {
-    width: 100%;
-    height: 260px;
+    width: 758px;
+    height: 430px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 
 .img-box {
-    border-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 362px;
+    height: 196px;
     object-fit: cover;
 }
 
 .side-imgs {
     display: flex;
+    width: 362px;
+    height: 212px;
+    border-radius: 5px;
     gap: 20px;
     margin-bottom: 20px;
 }
 
 .side-imgs .small {
-    height: 180px;
+    height: 212px;
+    width: 362px;
+    border-radius: 5px;
     flex: 1;
 }
 
 .bottom-row {
     display: flex;
+    width: 362px;
+    height: 212px;
+    border-radius: 5px;
     gap: 20px;
 }
 
 .bottom-row .img-box {
     flex: 2;
-    height: 220px;
+    width: 362px;
+    height: 212px;
+    border-radius: 5px;
 }
 
 .side-small {
@@ -176,4 +191,30 @@ footer p {
     justify-content: space-between;
     align-items: center;
     font-size: 15px;
+}
+.trending {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto 40px;
+    gap: 25px; /* spacing between cards */
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    width: 33%;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;      /* FIXED HEIGHT (same as your screenshot) */
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+.img-box good {
+ width: 758px;
+ height: 430px;
+ border-radius: 5px;
 }
